@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Data files (uncomment to exclude raw data)
+# data/*.csv
+# data/*.xlsx
+# data/*.parquet
+
+# Trained model artifacts (often large)
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
